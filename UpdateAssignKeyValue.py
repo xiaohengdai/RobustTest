@@ -1,6 +1,7 @@
 import json
 import os
 
+#修改指定key的value值
 def check_json_value(dic_json, k, v):
     if isinstance(dic_json, dict):
         for key in dic_json:
